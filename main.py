@@ -15,7 +15,7 @@ while True:
             continue
         
         startTime = time.time()
-        password = random.choice(string.ascii_lowercase + string.ascii_uppercase)
+        password = random.choice(string.ascii_letters)
         for x in range (passwordLength-1):
             password = password + random.choice(string.ascii_uppercase + string.ascii_lowercase + string.digits + "@!#.%&*_-")
 
